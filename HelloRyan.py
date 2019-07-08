@@ -8,7 +8,9 @@ hello = "Hello Everyone"
 # print(hello)
 # print(hello)
 
-/*
-comment
-*/
+
+# git is a VCS
+# VCS = Version Control System
+
+
 print(a)
