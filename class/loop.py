@@ -21,10 +21,12 @@
 # ...
 # 4443
 # 4444
-num = ["1", "2", "3", "4"]
+num = ["1", "2", "3", "4", "5"]
 # numbs = ["1", "2", "3", "4"]
 # numbers = ["1", "2", "3", "4"]
 # number = ["1", "2", "3", "4"]
+
+# HW : add one line to count ~~~~
 
 count = 0
 
@@ -33,5 +35,6 @@ for x in num:
         for z in num:
             for a in num:
                 print (x, y, z, a)
+                count = count + 1
 
 print ("I printed {} numbers".format(count))
