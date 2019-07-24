@@ -12,6 +12,18 @@ tierList = [
 "min" : 3000
 },
 {
+"name" : "Platinum",
+"min" : 2500
+},
+{
+"name" : "Gold",
+"min" : 2000
+},
+{
+"name" : "Silver",
+"min" : 1500
+},
+{
 "name" : "Bronze",
 "min" : 0
 }
@@ -25,8 +37,14 @@ elif InputSr > tierList[1]["min"]:
     print (tierList[1]["name"])
 elif InputSr > tierList[2]["min"]:
     print (tierList[2]["name"])
-else :
+elif InputSr > tierList[3]["min"]:
     print (tierList[3]["name"])
+elif InputSr > tierList[4]["min"]:
+    print (tierList[4]["name"])
+elif InputSr > tierList[5]["min"]:
+    print (tierList[5]["name"])
+else :
+    print (tierList[6]["name"])
 
 # standard = 3500
 #

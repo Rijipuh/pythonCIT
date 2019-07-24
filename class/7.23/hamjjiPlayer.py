@@ -22,6 +22,14 @@ while True :
     elif command == "r":
         Hamjji["Ammo"] = 10
         print("relaoding...")
+    elif command == "e":
+        numberOfEnemiesAround = int(input("How many enemies are around Hamjji? "))
+        Hamjji["Health"] += (Hamjji["basicAdaptiveShield"] + (Hamjji["additionalAdaptiveShieldPerEnemy"] * numberOfEnemiesAround))
+        print("Hamjji's health is " + str(Hamjji["Health"]))
+    elif command == "b":
+        print ("Hamjji says hi!")
+    elif command = "J" :
+        print ("Hamjji is dancing :D")
 
 
 
