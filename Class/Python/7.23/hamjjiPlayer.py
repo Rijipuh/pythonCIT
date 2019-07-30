@@ -8,6 +8,7 @@ Hamjji = {
 }
 
 totalDamageDealt = 0
+count = 5
 
 while True :
     command = input("press key : ")
@@ -28,13 +29,16 @@ while True :
         print("Hamjji's health is " + str(Hamjji["Health"]))
     elif command == "b":
         print ("Hamjji says hi!")
-    elif command = "J" :
+    elif command == "j" :
         print ("Hamjji is dancing :D")
+    count -= 1
+    if count == 0 :
+        break
 
 
 
-numberOfEnemiesAround = int(input("How many enemies are around Hamjji? "))
-
-print(
-"Hamjji's health is " +
-str((Hamjji["basicAdaptiveShield"] * numberOfEnemiesAround) + Hamjji["Health"]))
+# numberOfEnemiesAround = int(input("How many enemies are around Hamjji? "))
+#
+# print(
+# "Hamjji's health is " +
+# str((Hamjji["basicAdaptiveShield"] * numberOfEnemiesAround) + Hamjji["Health"]))
