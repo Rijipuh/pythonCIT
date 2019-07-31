@@ -5,7 +5,6 @@ FiboTwo = 1
 
 # Fibolist.append(Fibolist[0] + Fibolist[1])
 targetIndex = 300
-
 # for x in range(2 , targetIndex + 1):
     # Fibolist.append(Fibolist[x-2] + Fibolist[x-1])
 for i in range(targetIndex):
