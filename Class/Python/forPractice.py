@@ -8,7 +8,7 @@
 for x in range (100):
     if (x % 10) != 0 and (x % 10) % 3 == 0 :
         print("Clap!")
-    if x > 29 and x < 40 :
+    elif x > 29 and x < 40 :
         print("Clap!")
     else :
         print(x)
